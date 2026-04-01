@@ -51,7 +51,7 @@ const HomePage = () => {
             ].map((article, index) => (
               <Link
                 key={index}
-                to={`/interactive/unprocessed/${index + 1}`}
+                to={`/userstudy/unprocessed/${index + 1}`}
                 style={{ textDecoration: 'none', color: 'black' }}
               >
                 <button
@@ -86,7 +86,7 @@ const HomePage = () => {
             ].map((article, index) => (
               <Link
                 key={index}
-                to={`/interactive/processed/${index + 1}`}
+                to={`/userstudy/processed/${index + 1}`}
                 style={{ textDecoration: 'none', color: 'black' }}
               >
                 <button

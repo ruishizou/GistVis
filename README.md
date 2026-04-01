@@ -12,12 +12,16 @@ GistVis is also actively evolving as the technical toolchain evolves (prototype 
 
 We are working on getting GistVis above a research prototype -- as such, we are actively migrating into using a monorepo structure to manage the project:
 
-* Discoverer (stay tuned) - Now in `site/src/modules/llm/discoverer/` folder
-* Annotator (stay tuned) - Now in `site/src/modules/llm/annotator/` folder
-* Extractor (stay tuned) - Now in `site/src/modules/llm/extractor/` folder
+* Discoverer - Now in `site/src/modules/llm/discoverer/` folder
+* Annotator - Now in `site/src/modules/llm/annotator/` folder
+* Extractor - Now in `site/src/modules/llm/extractor/` folder
 * Visualizer - Published as a npm package [@gistvis/wsv](https://www.npmjs.com/package/@gistvis/wsv) ([![NPM Package](https://img.shields.io/npm/v/@gistvis/wsv.svg)](https://www.npmjs.com/package/@gistvis/wsv))
 
-You can also check out some paragraphs and learn more about GistVis at [GistVis demo](https://motion115.github.io/GistVis).
+You can also check out some paragraphs and learn more about GistVis at [GistVis demo](https://ruishizou.github.io/GistVis).
+
+## Apparatus for User Study
+
+Visit [GistVis user study demo](https://ruishizou.github.io/GistVis/#/userstudy) to check how it was presented to users. Please note that you cannot submit in this interface because the backend used for collecting interaction traces and results are not live at the moment.
 
 ## Citing GistVis
 

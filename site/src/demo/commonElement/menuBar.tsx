@@ -18,7 +18,7 @@ const MenuBar = () => {
           <Link to={`/Pipeline`}>
             <Button type="link">Pipeline explorer</Button>
           </Link>
-          <Link to={`/interactive`}>
+          <Link to={`/userstudy`}>
             <Button type="link">User study interface</Button>
           </Link>
           <Link to={`/llm_setting`}>

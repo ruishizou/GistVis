@@ -19,8 +19,8 @@ const App = () => {
           <Route path={`/Pipeline`} element={<DemoPipeline />} />
           <Route path={`/gisttest`} element={<GistTest />} />
           {/* <Route path="/publicity" element={<PublicityPage />} /> */}
-          <Route path={`/interactive`} element={<HomePage />} />
-          <Route path={`/interactive/:pageType/:pageId`} element={<InteractivePage />} />
+          <Route path={`/userstudy`} element={<HomePage />} />
+          <Route path={`/userstudy/:pageType/:pageId`} element={<InteractivePage />} />
           <Route path={`/llm_setting`} element={<LLMConfigurationPage />} />
         </Routes>
       </Router>

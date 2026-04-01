@@ -56,7 +56,7 @@
     "gh:deploy": "gh-pages -d dist",
     "test": "jest test",
     "lint": "eslint .",
-    "lint-fix": "yarn lint --fix"
+    "lint-fix": "pnpm lint --fix"
   },
   "eslintConfig": {
     "extends": [
