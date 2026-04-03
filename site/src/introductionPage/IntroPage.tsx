@@ -196,7 +196,7 @@ const IntroPage = () => {
             <AuthorLinkComponent authorName="Yinqi Tang*" />,{' '}
             <AuthorLinkComponent
               authorName="Jingzhu Chen"
-              authorLink="https://www.linkedin.com/in/jingzhu-chen-4b193b35a/"
+              authorLink="https://jingzhu-chen.github.io/"
             />
             , <AuthorLinkComponent authorName="Siyu Lu" />, <AuthorLinkComponent authorName="Yan Lu" />,{' '}
             <AuthorLinkComponent authorName="Yingfan Yang" />,{' '}
