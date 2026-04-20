@@ -33,7 +33,7 @@ export const recommendValidTypes = (gistVisSpec: GistvisSpec) => {
   const isInOneToTenRange = dataSpec.every((d) => d.value >= 1 && d.value <= 10);
 
   const notValidTypes: InsightType[] = [];
-  if (valueHasNaN || breakdownHasEmpty || dataSpecLength < 2) {
+  if (breakdownHasEmpty) {
     notValidTypes.push('comparison');
   }
   // value/extreme must have inSitu position
@@ -45,7 +45,7 @@ export const recommendValidTypes = (gistVisSpec: GistvisSpec) => {
     notValidTypes.push('value');
   }
   // extreme must have attribute
-  if (!validForExtreme || inSituPositionList.length > 1) {
+  if (!validForExtreme) {
     notValidTypes.push('extreme');
   }
 
@@ -61,7 +61,7 @@ export const recommendValidTypes = (gistVisSpec: GistvisSpec) => {
   };
   
   // not negative/positive, while there exist empty value, or less than 2 data points, not valid for trend
-  if (!validForNominalTrend && (valueHasNaN || breakdownHasEmpty || dataSpecLength < 2)) {
+  if (!validForNominalTrend && breakdownHasEmpty) {
     notValidTypes.push('trend');
   }else if (attribute === 'invariable' && !checkInvariableTrend(dataSpec)) {
     notValidTypes.push('trend');
