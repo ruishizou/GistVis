@@ -54,10 +54,7 @@ const ValueTextRenderer: React.FC<{ gistvisSpec: GistvisSpec }> = ({ gistvisSpec
         } else if (content.displayType === 'word-scale-vis') {
           return (
             <span onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-              <span key={index}>
-                {content.content}
-                {valueVis}
-              </span>
+              <span key={index}>{valueVis}</span>
             </span>
           );
         } else {
